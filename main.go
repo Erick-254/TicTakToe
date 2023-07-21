@@ -77,7 +77,7 @@ func (game *TicTacToe) CheckWin() bool {
 
 	return false
 }
-
+// entry point 
 func main() {
 	game := NewTicTacToe()
 	fmt.Println("Welcome to Tic Tac Toe!")
